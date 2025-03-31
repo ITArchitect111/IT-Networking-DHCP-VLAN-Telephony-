@@ -1,0 +1,23 @@
+en
+conf t
+hostname SW1
+
+vlan 2
+name FD
+ex
+vlan 10
+name Voice 
+ex
+
+int fa0/1
+switchport mode trunk 
+ex
+
+int range fa0/2-24
+switchport mode access 
+switchport access vlan 2
+switchport voice vlan 10
+ex
+
+show vlan brief
+
