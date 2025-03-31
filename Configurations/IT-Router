@@ -1,0 +1,92 @@
+enable
+conf t
+hostname IT-Router
+
+int fa0/0
+no shut 
+ex
+
+int fa0/0.2
+encapsulation dot1q 2
+ip add 191.168.125.17 255.255.255.248
+ex
+
+int fa0/0.3
+encapsulation dot1q 3
+ip add 192.168.125.25 255.255.255.248
+ex 
+
+int fa0/0.10
+encapsulation dot1q 10
+ip add 192.168.125.1 255.255.255.240
+ex
+
+ip dhcp pool FD
+network 192.168.125.16 255.255.255.248
+default-router 192.168.125.17
+ex
+
+ip dhcp pool BO
+network 192.168.125.24 255.255.255.248
+default-router 192.168.125.25 
+ex
+
+ip dhcp pool Voice
+network 192.168.125.0 255.255.255.240
+default-router 192.168.125.1
+option 150 ip 192.168.125.1
+ex
+
+ip dhcp excluded-address 192.168.125.17
+ip dhcp excluded-address 192.168.125.25
+ip dhcp excluded-address 192.168.125.1
+
+telephony-service 
+max-ephones 10
+max-dn 10
+auto assign 1 to 10
+ip source-address 192.168.125.1 port 2000
+ex
+
+ephone-dn 1
+number 101
+ex
+
+ephone-dn 2
+number 102
+ex
+
+ephone-dn 3
+number 103
+ex
+
+ephone-dn 4
+number 104
+ex
+
+ephone-dn 5
+number 105
+ex
+
+ephone-dn 6
+number 106
+ex
+
+ephone-dn 7
+number 107
+ex
+
+ephone-dn 8
+number 108
+ex
+
+ephone-dn 9
+number 109
+ex
+
+ephone-dn 10
+number 110
+ex
+
+
+show ephone 
