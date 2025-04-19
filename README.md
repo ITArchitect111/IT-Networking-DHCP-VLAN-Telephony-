@@ -7,7 +7,7 @@ This project demonstrates a complete network topology setup using:
 - **Multiple PCs**
 - **IP Phones**
 
-The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voice and Data VLANs**, and **Telephony (VoIP)** services. Designed and simulated using **Cisco Packet Tracer**, this setup is ideal for learning enterprise-level network segmentation and IP voice communication.
+The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voice and Data VLANs**, and **Telephony (VoIP)** services. Designed and simulated using **Cisco Packet Tracer**, this setup is ideal for learning DHCP addressing, VLAN Management and IP voice communication.
 
 ---
 
@@ -20,9 +20,8 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 ---
 
 ## Project Contents
-
-
----
+project-root/ ├── Configurations/ # Network device configuration files
+│ ├── **IT-Router.txt** # Router CLI configuration │ ├── **SW1.txt** # Switch 1 configuration │ └── **SW2.txt** # Switch 2 configuration ├── IT Networking File/ # Cisco Packet Tracer source file │ └── **IT DHCP, VLANS and Telephony.pkt** └── README.md # Project documentation
 
 ## Tools Used
 - **Cisco Packet Tracer** – for simulation and design
@@ -32,8 +31,8 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 
 ## How to Use
 1. Open the `.pkt` file using **Cisco Packet Tracer**.
-2. Load the CLI configuration files if needed.
-3. Observe the IP addressing via DHCP and VLAN separation.
+2. Check Network devices if they have DHCP, VLANs, and Telephony.
+3. Analyze the Topology and try to ping each devices.
 4. Test communication via IP Phones across the network.
 
 ---
