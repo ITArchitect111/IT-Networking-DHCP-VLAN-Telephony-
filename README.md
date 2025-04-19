@@ -20,8 +20,8 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 ---
 
 ## Project Contents
-project-root/ ├── Configurations/ # Network device configuration files
-│ ├── **IT-Router.txt** # Router CLI configuration │ ├── **SW1.txt** # Switch 1 configuration │ └── **SW2.txt** # Switch 2 configuration ├── IT Networking File/ # Cisco Packet Tracer source file │ └── **IT DHCP, VLANS and Telephony.pkt** └── README.md # Project documentation
+project-root/ **├── Configurations/ # Network device configuration files
+│ ├── IT-Router.txt # Router CLI configuration** **│ ├── **SW1.txt** # Switch 1 configuration** **│ └── SW2.txt# Switch 2 configuration** **├── IT Networking File/ # Cisco Packet Tracer source file │ └── IT DHCP, VLANS and Telephony.pkt** **└── README.md # Project documentation**
 
 ## Tools Used
 - **Cisco Packet Tracer** – for simulation and design
