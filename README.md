@@ -19,14 +19,15 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 
 ---
 
-## Project Contents
-##Configurations/## #Network device configuration files
+## Repository Contents
 
-- **IT-Router.txt # Router CLI configuration**
-- **SW1.txt #Switch 1 configuration** - **SW2.txt# Switch 2 configuration**
+# Configurations/#
+- **IT-Router.txt**
+- **SW1.txt**
+- **SW2.txt**
 
-##IT Networking File/## #Cisco Packet Tracer source file 
-- **IT DHCP, VLANS and Telephony.pkt #Networking file pkt**
+# IT Networking File/#
+- **IT DHCP, VLANS and Telephony.pkt**
   
 - **README.md # Project documentation**
 
