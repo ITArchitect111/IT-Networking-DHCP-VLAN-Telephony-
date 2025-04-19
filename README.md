@@ -26,7 +26,7 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 - **SW1.txt**
 - **SW2.txt**
 
-# IT Networking File/
+# IT Networking Source File/
 - **IT Networking 1 (DHCP, VLANS and Telephony).pkt**
   
 # README.md
