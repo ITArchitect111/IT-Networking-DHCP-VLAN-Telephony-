@@ -21,15 +21,15 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 
 ## Repository Contents
 
-# Configurations/#
+# Configurations/
 - **IT-Router.txt**
 - **SW1.txt**
 - **SW2.txt**
 
-# IT Networking File/#
+# IT Networking File/
 - **IT DHCP, VLANS and Telephony.pkt**
   
-- **README.md # Project documentation**
+# README.md
 
 ## Tools Used
 - **Cisco Packet Tracer** – for simulation and design
