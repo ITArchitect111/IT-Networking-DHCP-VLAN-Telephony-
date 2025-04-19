@@ -38,7 +38,7 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 ---
 
 ## How to Use
-1. Open the `.pkt` file using **Cisco Packet Tracer**.
+1. Open the `IT Networking 1 (DHCP, VLANS and Telephony) .pkt` file using **Cisco Packet Tracer**.
 2. Check Network devices if they have DHCP, VLANs, and Telephony.
 3. Analyze the Topology and try to ping each devices.
 4. Test communication via IP Phones across the network.
