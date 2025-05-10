@@ -28,7 +28,10 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 
 # IT Networking Source File/
 - **IT Network 1 (DHCP, VLANS and Telephony).pkt**
-  
+
+# Overview
+![Topology](Overview/IT Network.png)
+
 # README.md
 
 ## Tools Used
