@@ -30,7 +30,7 @@ The configuration includes **Dynamic Host Configuration Protocol (DHCP)**, **Voi
 - **IT Network 1 (DHCP, VLANS and Telephony).pkt**
 
 # Overview
-![Topology](Overview/IT\ Network\ 1.png)
+![Topology](Overview/IT_Network_1.png)
 
 # README.md
 
